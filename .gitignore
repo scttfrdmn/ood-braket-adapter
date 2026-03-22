@@ -1,0 +1,9 @@
+ood-braket-adapter
+dist/
+*.test
+*.out
+coverage.txt
+.DS_Store
+.idea/
+.vscode/
+*.swp
