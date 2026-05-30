@@ -1,5 +1,11 @@
 # ood-braket-adapter
 
+[![CI](https://github.com/scttfrdmn/ood-braket-adapter/actions/workflows/ci.yml/badge.svg)](https://github.com/scttfrdmn/ood-braket-adapter/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/scttfrdmn/ood-braket-adapter)](https://goreportcard.com/report/github.com/scttfrdmn/ood-braket-adapter)
+[![codecov](https://codecov.io/gh/scttfrdmn/ood-braket-adapter/branch/main/graph/badge.svg)](https://codecov.io/gh/scttfrdmn/ood-braket-adapter)
+[![Go Reference](https://pkg.go.dev/badge/github.com/scttfrdmn/ood-braket-adapter.svg)](https://pkg.go.dev/github.com/scttfrdmn/ood-braket-adapter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Open OnDemand adapter for [Amazon Braket](https://aws.amazon.com/braket/) — submit,
 monitor, and cancel quantum tasks on QPUs and managed simulators from the OOD portal.
 
