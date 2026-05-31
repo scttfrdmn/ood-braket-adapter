@@ -13,7 +13,10 @@ var (
 	device string
 )
 
+var version = "dev" // overridden at release time via -ldflags -X .../cmd.version
+
 var rootCmd = &cobra.Command{
+	Version: version,
 	Use:   "ood-braket-adapter",
 	Short: "OOD adapter for Amazon Braket quantum/hybrid jobs",
 	Long: `ood-braket-adapter submits, monitors, and cancels Amazon Braket
