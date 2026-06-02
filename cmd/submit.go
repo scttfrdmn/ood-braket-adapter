@@ -47,7 +47,7 @@ or algorithm script S3 URI.`,
 		}
 
 		ctx := context.Background()
-		client, err := braket.New(ctx, region)
+		client, err := braket.New(ctx, region, awsOptions(ctx)...)
 		if err != nil {
 			return err
 		}

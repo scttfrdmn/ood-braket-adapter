@@ -19,9 +19,9 @@ type JobSpec struct {
 
 // JobStatus maps Braket task states to OOD status strings.
 type JobStatus struct {
-	ID       string `json:"id"`
-	Status   string `json:"status"`
-	Message  string `json:"message,omitempty"`
+	ID      string `json:"id"`
+	Status  string `json:"status"`
+	Message string `json:"message,omitempty"`
 }
 
 const (
